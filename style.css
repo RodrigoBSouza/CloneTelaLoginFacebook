@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0F2F5;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 1150px;
+}
+
+.container-left {
+    margin-top: 200px;
+    margin-right: 100px;
+}
+
+.container-left p {
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+.container-right {
+    background: #FFF;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    width: 400px;
+    height: 340px;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+
+.container-right input {
+    display: block;
+    margin: auto;
+    width: 360px;
+    height: 45px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #DDDFE2;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+input:focus {
+    margin-left: auto;
+    outline: none;
+    border: 1px solid #1877F2;
+}
+
+.container-right input::placeholder {
+    margin-left: 5px;
+    color: #90949C;
+}
+
+.container-right a {
+    display: block;
+}
+
+.container-right p {
+    font-size: 14px;
+    margin-top: 60px;
+    color: #1C1E21;
+    text-align: center;
+}
+
+.container-right strong {
+    cursor: pointer;
+}
+
+.container-right strong:hover {
+    text-decoration: underline;
+}
+
+.form .enter {
+    display: flex;
+    margin: auto;   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #1877F2;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 370px;
+    height: 45px;
+}
+
+.enter:hover {
+    background-color: #166FE5;
+}
+
+.miss {
+    margin: auto;
+    width: 135px;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: #1877F2;
+}
+
+.miss:hover {
+    text-decoration: underline;
+}
+
+.row {
+    background-color: #DDDFE2;
+    width: 370px;
+    height: 1px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.form .new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #42B72A;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 600;
+    width: 160px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.new:hover {
+    background-color: #36A420;
+}
+
+footer {
+    background-color: #FFF;
+}
+
+.footer-all {
+    display: block;
+    background-color: #FFF;
+    width: 1150px;
+    margin: auto;
+}
+
+.footer-container {
+    display: block;
+    background-color: #FFF;
+    height: 190px;
+}
+
+.footer-container ul {
+    display: flex;
+    font-size: 12px;
+    color: #9D8D91;
+    list-style: none;
+    margin-bottom: -5px;
+}
+
+.footer-container li {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.footer-container li:hover {
+    text-decoration: underline;
+}
+
+.footer-up ul {
+    margin-top: 230px;
+}
+
+.footer-up li {
+    margin-top: 30px;
+}
+
+.footer-row {
+    background-color: #DDDFE2;
+    width: 1050px;
+    height: 1px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.footer-down1 ul {
+    display: flex;
+}
+
+.footer-container p {
+   justify-content: center;
+    color: #9D8D91;
+    font-size: 11px;
+    margin-top: 30px;
+    margin-left: 54px;
+}
+
+@media (max-width: 1075px) {
+    .container-left {
+        width: 400px;
+    }
+
+    .container-left p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .container-left {
+        display: block;
+        margin: auto;
+    }
+
+    .container-right {
+        display: block;
+        margin: auto;
+        background: #FFF;
+        width: 430px;
+        height: 390px;
+        margin-top: 50px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .container-right input {
+        width: 410px;
+        height: 55px;
+        margin-top: 15px;
+    }
+
+    .form .enter {
+        font-weight: 600;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        width: 420px;
+        height: 55px;
+    }
+
+    .miss {
+        font-size: 15px;
+    }
+
+    .form .new {
+        width: 160px;
+        height: 55px;
+    }
+
+    .container-right p {
+        margin-top: 75px;
+    }
+
+    .footer-all {
+        width: 100%;
+    }
+
+    .footer-container {
+        height: 250px;
+    }
+    
+    .footer-container li {
+        margin-left: 5px;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .footer-container p {
+        margin-left: 45px;
+    }
+
+}
